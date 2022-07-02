@@ -113,6 +113,30 @@ set tabstop=4
 set tabpagemax=20 "设置最大标签页上限为20
 set showtabline=2
 
+set updatecount=0
+
+"设置光标位置行列线
+set cursorcolumn
+set cursorline
+"设置光标位置行列线--颜色
+highlight CursorLine   cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
+highlight CursorColumn cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
+
+"cscope代码跳转快捷键
+nmap <C-\>g :cs find g <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>c :cs find c <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>s :cs find s <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>t :cs find t <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>e :cs find e <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
+nmap <C-\>i :cs find i <C-R>=expand("<cfile>")<CR><CR>
+nmap <C-\>d :cs find d <C-R>=expand("<cword>")<CR><CR>
+
+"窗口大小调节快捷键--上下左右方向键调节
+map <UP> <ESC><C-W>-
+map <DOWN> <ESC><C-W>+
+map <LEFT> <ESC><C-W><
+map <Right> <ESC><C-W>>
 
 
 
