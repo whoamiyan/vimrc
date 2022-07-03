@@ -97,7 +97,7 @@ set visualbell "出错时，发出视觉提示，通常是屏幕闪烁
 "set listchars=tab:»■,trail:■ "如果行尾有多余的空格（包括 Tab 键），该配置将让这些空格显示成可见的小方块
 "set list
 
-set wildmenu "命令模式下，底部操作指令按下 Tab 键自动补全。第一次按下 Tab，会显示所有匹配的操作指令的清单；第二次按下 Tab，会依次选择各个指令。
+set wildmenu "命令模式下，底部操作指令按下 Tab 键自动补全。第一次按下 Tab,会显示所有匹配的操作指令的清单；第二次按下 Tab，会依次选择各个指令。
 set wildmode=longest:list,full
 
 set autoread "当文件在外部被修改时，自动更新该文件
@@ -137,8 +137,3 @@ map <UP> <ESC><C-W>-
 map <DOWN> <ESC><C-W>+
 map <LEFT> <ESC><C-W><
 map <Right> <ESC><C-W>>
-
-
-
-
-
