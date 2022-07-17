@@ -30,7 +30,8 @@ nnoremap <silent> <F9> :Sexplore!<CR><CR> "使用文件列表
 """"""""""""""""""""""""""""""
 " winManager setting
 """"""""""""""""""""""""""""""
-let g:winManagerWindowLayout = "BufExplorer|FileExplorer|TagList"
+"let g:winManagerWindowLayout = "BufExplorer|FileExplorer|TagList"
+let g:winManagerWindowLayout = "BufExplorer|TagList"
 let g:winManagerWidth = 30
 let g:defaultExplorer = 0
 "nmap <C-W><C-F> :FirstExplorerWindow<cr>
