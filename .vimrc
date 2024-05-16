@@ -228,7 +228,7 @@ nmap <leader>gd :Git diff<CR>
 " " 打开一个新的窗口查看差异（水平分割）
 nmap <leader>gh :Git split<CR>
 "
-" " 进行 Git commit，并在 quickfix 窗口中预览更改
+" " 进行 Git commit,并在 quickfix 窗口中预览更改
 nmap <leader>gc :Git commit<CR>
 "
 " " 切换到下一个差异
@@ -239,5 +239,5 @@ nmap <leader>gc :Git commit<CR>
 "
 " " 查看提交历史
 nmap <leader>gl :Glog<CR>
-" " 进行 Git blame，并在 quickfix 窗口中预览更改
+" " 进行 Git blame,并在 quickfix 窗口中预览更改
 nmap <leader>gb :Git blame<CR>
